@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav, footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    padding: 26px;
+    margin: 8px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin: 8px;
+    border: solid 2px black
+}
+
+.signup {
+    background-color: rgb(244, 194, 244);
+    padding: 16px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
